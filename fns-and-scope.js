@@ -65,28 +65,32 @@ returns true or false*/
 
 //Create a function called myName that returns your name
 
-  //Code Here
+  function myName() {
+    return "Jessica Zhou";
+  }
   
 
 
 //Now save the function definition of myName into a new variable called newMyName
 
-  //Code Here
+  var newMyName = myName;//Code Here
 
 //Now alert the result of invoking newMyName
 
-
+alert(myName);
 
 //////////////////PROBLEM 7////////////////////
 
 
 
 //Create a function called outerFn which returns an anonymous function which returns your name.
-
-  //Code Here
+function outerFn() {
+  return function() {return "Jessica Zhou";}
+}//Code Here
 
 //Now save the result of invoking outerFn into a variable called innerFn.
 
-  //Code Here
+  var innerFn = outerFn()//Code Here
 
 //Now invoke innerFn.
+innerFn;
