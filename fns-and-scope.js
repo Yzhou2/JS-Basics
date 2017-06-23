@@ -30,7 +30,9 @@ var name = 'Tyler';
 //Create a function called welcome that uses your getName function you created in the previous problem to get the users name,
 //then alerts "Welcome, " plus whatever the users name is.
 
-  //Code Here
+  function welcome(){
+    alert("Welcome, " + getName());
+  }//Code Here
 
 
 //////////////////PROBLEM 4////////////////////
@@ -40,6 +42,8 @@ var name = 'Tyler';
 
 //What is the difference between arguments and parameters?
 
+  /*parameters are variables. They are usually found at the declaration of functions.
+  arguments are actual datas or values that's passed into the function */
   //Answer Here
 
 
@@ -48,8 +52,9 @@ var name = 'Tyler';
 
 
 //What are all the falsy values in JavaScript and how do you check if something is falsy?
-
-
+/* falsy values in JS are: NaN, null, undefined, false, "", 0.
+To check if something is falsy, we can put use the triple equal sign method and see if 
+returns true or false*/
   //Answer Here
 
 
